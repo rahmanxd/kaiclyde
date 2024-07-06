@@ -1,7 +1,6 @@
 {
   "name": "kaiclyde",
-  "version": "0.2.0",
-  "private": true,
+  "version": "1.1.4",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,19 +8,32 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "arlecchinoc": "^1.1.4",
+    "next": "14.1.4",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.1.4"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.4",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.1.4"
-  }
+    "typescript": "^5"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rahmanxd/kaiclyde"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahmanxd/kaiclyde/issues"
+  },
+  "homepage": "https://github.com/rahmanxd/kaiclyde#readme"
 }
